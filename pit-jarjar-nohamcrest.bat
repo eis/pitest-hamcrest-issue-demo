@@ -2,7 +2,7 @@
 setlocal EnableDelayedExpansion
 
 REM comment out below to see the issue
-set HAMCREST_PATH=%JARJAR_PATH%/lib/hamcrest-all-1.1.jar
+REM set HAMCREST_PATH=%JARJAR_PATH%/lib/hamcrest-all-1.1.jar
 
 
 set JARJAR_PATH=%~dp0
