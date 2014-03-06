@@ -1,0 +1,84 @@
+Started at 22:09:57,69 
+22:09:58 PIT >> FINE : Running report with ReportOptions [config=org.pitest.mutationtest.config.CompoundConfiguration@b5f53a, targetClasses=[^com\.tonicsystems.*$], excludedMethods=[], excludedClasses=[], codePaths=[], reportDir=target/pitest, historyInputLocation=null, historyOutputLocation=null, sourceDirs=[C:\versioncontrol\java\gradujutut_codeplex\jarjar-pit-issue\jarjar\src\main, C:\versioncontrol\java\gradujutut_codeplex\jarjar-pit-issue\jarjar\src\test], classPathElements=[C:\versioncontrol\java\gradujutut_codeplex\jarjar-pit-issue\jarjar\/lib/junit-4.8.1.jar, , C:\versioncontrol\java\gradujutut_codeplex\jarjar-pit-issue\jarjar\/pit_lib/pitest-0.32.jar, C:\versioncontrol\java\gradujutut_codeplex\jarjar-pit-issue\jarjar\/pit_lib/pitest-command-line-0.32.jar, C:\versioncontrol\java\gradujutut_codeplex\jarjar-pit-issue\jarjar\/target/classes], mutators=[], dependencyAnalysisMaxDistance=-1, mutateStaticInitializers=false, jvmArgs=[], numberOfThreads=1, timeoutFactor=1.25, timeoutConstant=4000, targetTests=[^com\.tonicsystems.*$], loggingClasses=[], maxMutationsPerClass=0, verbose=true, failWhenNoMutations=true, outputs=[HTML], groupConfig=TestGroupConfig [excludedGroups=[], includedGroups=[]], mutationUnitSize=0, shouldCreateTimestampedReports=true, detectInlinedCode=false, exportLineCoverage=false, mutationThreshold=0, coverageThreshold=0, mutationEngine=gregor, javaExecutable=null]
+22:09:58 PIT >> FINE : System class path is C:\versioncontrol\java\gradujutut_codeplex\jarjar-pit-issue\jarjar\/lib/junit-4.8.1.jar;;C:\versioncontrol\java\gradujutut_codeplex\jarjar-pit-issue\jarjar\/pit_lib/pitest-0.32.jar;C:\versioncontrol\java\gradujutut_codeplex\jarjar-pit-issue\jarjar\/pit_lib/pitest-command-line-0.32.jar;C:\versioncontrol\java\gradujutut_codeplex\jarjar-pit-issue\jarjar\/target/classes
+22:09:58 PIT >> FINE : Maxmium available memory is 247 mb
+22:09:58 PIT >> FINE : using port 8092
+22:09:58 PIT >> FINE : SLAVE : Installing PIT agent
+
+22:09:58 PIT >> INFO : Sending 1 test classes to slave
+22:09:58 PIT >> INFO : Sent tests to slave
+22:09:58 PIT >> INFO : SLAVE : 22:09:58 PIT >> FINE : Expecting 1 tests classes from parent
+22:09:58 PIT >> FINE : Tests classes received
+
+22:09:58 PIT >> INFO : SLAVE : 22:09:58 PIT >> INFO : Found  0 tests
+
+22:09:58 PIT >> INFO : SLAVE : 22:09:58 PIT >> INFO : Dependency analysis reduced number of potential tests by 0
+
+22:09:58 PIT >> INFO : SLAVE : 22:09:58 PIT >> INFO : 0 tests received
+
+22:09:58 PIT >> INFO : SLAVE : 22:09:58 PIT >> FINE : Running 0 units
+
+22:09:58 PIT >> INFO : SLAVE : 22:09:58 PIT >> FINE : Finished
+
+22:09:58 PIT >> INFO : Calculated coverage in 0 seconds.
+22:09:58 PIT >> FINE : Used memory after coverage calculation 1 mb
+22:09:58 PIT >> FINE : Free Memory after coverage calculation 14 mb
+22:09:58 PIT >> FINE : According to coverage no tests hit the mutation MutationDetails [id=MutationIdentifier [location=Location [clazz=com.tonicsystems.jarjar.DepFind, method=run, methodDesc=(Ljava/lang/String;Ljava/lang/String;Lcom/tonicsystems/jarjar/DepHandler;)V], indexes=[0], mutator=org.pitest.mutationtest.engine.gregor.mutators.IncrementsMutator], filename=DepFind.java, block=3, lineNumber=32, description=Changed increment from 1 to -1, testsInOrder=[]]
+22:09:58 PIT >> FINE : According to coverage no tests hit the mutation MutationDetails [id=MutationIdentifier [location=Location [clazz=com.tonicsystems.jarjar.DepFind, method=run, methodDesc=(Ljava/lang/String;Ljava/lang/String;Lcom/tonicsystems/jarjar/DepHandler;)V], indexes=[0], mutator=org.pitest.mutationtest.engine.gregor.mutators.NegateConditionalsMutator], filename=DepFind.java, block=3, lineNumber=32, description=negated conditional, testsInOrder=[]]
+22:09:58 PIT >> FINE : According to coverage no tests hit the mutation MutationDetails [id=MutationIdentifier [location=Location [clazz=com.tonicsystems.jarjar.DepFind, method=run, methodDesc=(Ljava/lang/String;Ljava/lang/String;Lcom/tonicsystems/jarjar/DepHandler;)V], indexes=[1], mutator=org.pitest.mutationtest.engine.gregor.mutators.NegateConditionalsMutator], filename=DepFind.java, block=4, lineNumber=32, description=negated conditional, testsInOrder=[]]
+22:09:58 PIT >> FINE : According to coverage no tests hit the mutation MutationDetails [id=MutationIdentifier [location=Location [clazz=com.tonicsystems.jarjar.DepFind, method=run, methodDesc=(Ljava/lang/String;Ljava/lang/String;Lcom/tonicsystems/jarjar/DepHandler;)V], indexes=[0], mutator=org.pitest.mutationtest.engine.gregor.mutators.ConditionalsBoundaryMutator], filename=DepFind.java, block=4, lineNumber=32, description=changed conditional boundary, testsInOrder=[]]
+22:09:58 PIT >> FINE : According to coverage no tests hit the mutation MutationDetails [id=MutationIdentifier [location=Location [clazz=com.tonicsystems.jarjar.DepFind, method=run, methodDesc=(Ljava/lang/String;Ljava/lang/String;Lcom/tonicsystems/jarjar/DepHandler;)V], indexes=[1], mutator=org.pitest.mutationtest.engine.gregor.mutators.IncrementsMutator], filename=DepFind.java, block=5, lineNumber=28, description=Changed increment from 1 to -1, testsInOrder=[]]
+22:09:58 PIT >> FINE : According to coverage no tests hit the mutation MutationDetails [id=MutationIdentifier [location=Location [clazz=com.tonicsystems.jarjar.DepFind, method=run, methodDesc=(Ljava/lang/String;Ljava/lang/String;Lcom/tonicsystems/jarjar/DepHandler;)V], indexes=[2], mutator=org.pitest.mutationtest.engine.gregor.mutators.NegateConditionalsMutator], filename=DepFind.java, block=5, lineNumber=28, description=negated conditional, testsInOrder=[]]
+22:09:58 PIT >> FINE : According to coverage no tests hit the mutation MutationDetails [id=MutationIdentifier [location=Location [clazz=com.tonicsystems.jarjar.DepFind, method=run, methodDesc=(Ljava/lang/String;Ljava/lang/String;Lcom/tonicsystems/jarjar/DepHandler;)V], indexes=[1], mutator=org.pitest.mutationtest.engine.gregor.mutators.ConditionalsBoundaryMutator], filename=DepFind.java, block=5, lineNumber=28, description=changed conditional boundary, testsInOrder=[]]
+22:09:58 PIT >> FINE : According to coverage no tests hit the mutation MutationDetails [id=MutationIdentifier [location=Location [clazz=com.tonicsystems.jarjar.PathClass, method=getClassPath, methodDesc=()Ljava/lang/String;], indexes=[0], mutator=org.pitest.mutationtest.engine.gregor.mutators.ReturnValsMutator], filename=PathClass.java, block=1, lineNumber=30, description=mutated return of Object value for com/tonicsystems/jarjar/PathClass::getClassPath to ( if (x != null) null else throw new RuntimeException ), testsInOrder=[]]
+22:09:58 PIT >> FINE : According to coverage no tests hit the mutation MutationDetails [id=MutationIdentifier [location=Location [clazz=com.tonicsystems.jarjar.PathClass, method=getClassName, methodDesc=()Ljava/lang/String;], indexes=[0], mutator=org.pitest.mutationtest.engine.gregor.mutators.ReturnValsMutator], filename=PathClass.java, block=2, lineNumber=34, description=mutated return of Object value for com/tonicsystems/jarjar/PathClass::getClassName to ( if (x != null) null else throw new RuntimeException ), testsInOrder=[]]
+22:09:58 PIT >> FINE : According to coverage no tests hit the mutation MutationDetails [id=MutationIdentifier [location=Location [clazz=com.tonicsystems.jarjar.PathClass, method=toString, methodDesc=()Ljava/lang/String;], indexes=[0], mutator=org.pitest.mutationtest.engine.gregor.mutators.ReturnValsMutator], filename=PathClass.java, block=3, lineNumber=38, description=mutated return of Object value for com/tonicsystems/jarjar/PathClass::toString to ( if (x != null) null else throw new RuntimeException ), testsInOrder=[]]
+22:09:58 PIT >> INFO : Created  2 mutation test units
+22:09:58 PIT >> FINE : Used memory before analysis start 4 mb
+22:09:58 PIT >> FINE : Free Memory before analysis start 11 mb
+22:09:58 PIT >> FINE : Running 2 units
+22:09:58 PIT >> FINE : Finished
+22:09:58 PIT >> INFO : Completed in 0 seconds
+================================================================================
+- Timings
+================================================================================
+> scan classpath : < 1 second
+> coverage and dependency analysis : < 1 second
+> build mutation tests : < 1 second
+> run mutation analysis : < 1 second
+--------------------------------------------------------------------------------
+> Total  : < 1 second
+--------------------------------------------------------------------------------
+================================================================================
+- Statistics
+================================================================================
+>> Generated 10 mutations Killed 0 (0%)
+>> Ran 0 tests (0 tests per mutation)
+================================================================================
+- Mutators
+================================================================================
+> org.pitest.mutationtest.engine.gregor.mutators.ConditionalsBoundaryMutator
+>> Generated 2 Killed 0 (0%)
+> KILLED 0 SURVIVED 0 TIMED_OUT 0 NON_VIABLE 0 
+> MEMORY_ERROR 0 NOT_STARTED 0 STARTED 0 RUN_ERROR 0 
+> NO_COVERAGE 2 
+--------------------------------------------------------------------------------
+> org.pitest.mutationtest.engine.gregor.mutators.ReturnValsMutator
+>> Generated 3 Killed 0 (0%)
+> KILLED 0 SURVIVED 0 TIMED_OUT 0 NON_VIABLE 0 
+> MEMORY_ERROR 0 NOT_STARTED 0 STARTED 0 RUN_ERROR 0 
+> NO_COVERAGE 3 
+--------------------------------------------------------------------------------
+> org.pitest.mutationtest.engine.gregor.mutators.IncrementsMutator
+>> Generated 2 Killed 0 (0%)
+> KILLED 0 SURVIVED 0 TIMED_OUT 0 NON_VIABLE 0 
+> MEMORY_ERROR 0 NOT_STARTED 0 STARTED 0 RUN_ERROR 0 
+> NO_COVERAGE 2 
+--------------------------------------------------------------------------------
+> org.pitest.mutationtest.engine.gregor.mutators.NegateConditionalsMutator
+>> Generated 3 Killed 0 (0%)
+> KILLED 0 SURVIVED 0 TIMED_OUT 0 NON_VIABLE 0 
+> MEMORY_ERROR 0 NOT_STARTED 0 STARTED 0 RUN_ERROR 0 
+> NO_COVERAGE 3 
+--------------------------------------------------------------------------------
+Done at  22:09:58,59 

@@ -1,0 +1,182 @@
+Started at 22:08:59,29 
+22:08:59 PIT >> FINE : Running report with ReportOptions [config=org.pitest.mutationtest.config.CompoundConfiguration@d70d7a, targetClasses=[^com\.tonicsystems.*$], excludedMethods=[], excludedClasses=[], codePaths=[], reportDir=target/pitest, historyInputLocation=null, historyOutputLocation=null, sourceDirs=[C:\versioncontrol\java\gradujutut_codeplex\jarjar-pit-issue\jarjar\src\main, C:\versioncontrol\java\gradujutut_codeplex\jarjar-pit-issue\jarjar\src\test], classPathElements=[C:\versioncontrol\java\gradujutut_codeplex\jarjar-pit-issue\jarjar\/lib/junit-4.8.1.jar, c:\versioncontrol\java\gradujutut_codeplex\jarjar-pit-issue\jarjar/lib/hamcrest-all-1.1.jar, C:\versioncontrol\java\gradujutut_codeplex\jarjar-pit-issue\jarjar\/pit_lib/pitest-0.32.jar, C:\versioncontrol\java\gradujutut_codeplex\jarjar-pit-issue\jarjar\/pit_lib/pitest-command-line-0.32.jar, C:\versioncontrol\java\gradujutut_codeplex\jarjar-pit-issue\jarjar\/target/classes], mutators=[], dependencyAnalysisMaxDistance=-1, mutateStaticInitializers=false, jvmArgs=[], numberOfThreads=1, timeoutFactor=1.25, timeoutConstant=4000, targetTests=[^com\.tonicsystems.*$], loggingClasses=[], maxMutationsPerClass=0, verbose=true, failWhenNoMutations=true, outputs=[HTML], groupConfig=TestGroupConfig [excludedGroups=[], includedGroups=[]], mutationUnitSize=0, shouldCreateTimestampedReports=true, detectInlinedCode=false, exportLineCoverage=false, mutationThreshold=0, coverageThreshold=0, mutationEngine=gregor, javaExecutable=null]
+22:08:59 PIT >> FINE : System class path is C:\versioncontrol\java\gradujutut_codeplex\jarjar-pit-issue\jarjar\/lib/junit-4.8.1.jar;c:\versioncontrol\java\gradujutut_codeplex\jarjar-pit-issue\jarjar/lib/hamcrest-all-1.1.jar;C:\versioncontrol\java\gradujutut_codeplex\jarjar-pit-issue\jarjar\/pit_lib/pitest-0.32.jar;C:\versioncontrol\java\gradujutut_codeplex\jarjar-pit-issue\jarjar\/pit_lib/pitest-command-line-0.32.jar;C:\versioncontrol\java\gradujutut_codeplex\jarjar-pit-issue\jarjar\/target/classes
+22:08:59 PIT >> FINE : Maxmium available memory is 247 mb
+22:08:59 PIT >> FINE : using port 8092
+22:08:59 PIT >> FINE : SLAVE : Installing PIT agent
+
+22:08:59 PIT >> INFO : Sending 1 test classes to slave
+22:08:59 PIT >> INFO : Sent tests to slave
+22:08:59 PIT >> INFO : SLAVE : 22:08:59 PIT >> FINE : Expecting 1 tests classes from parent
+22:08:59 PIT >> FINE : Tests classes received
+
+22:08:59 PIT >> INFO : SLAVE : 22:08:59 PIT >> INFO : Found  18 tests
+
+22:08:59 PIT >> INFO : SLAVE : 22:08:59 PIT >> INFO : Dependency analysis reduced number of potential tests by 0
+
+22:08:59 PIT >> INFO : SLAVE : 22:08:59 PIT >> INFO : 18 tests received
+
+22:08:59 PIT >> INFO : SLAVE : 22:08:59 PIT >> FINE : Running 18 units
+
+22:08:59 PIT >> INFO : SLAVE : 22:08:59 PIT >> FINE : Gathering coverage for test Description [testClass=com.tonicsystems.jarjar.DepFindTest, name=testDepFind_1(com.tonicsystems.jarjar.DepFindTest)]
+
+22:09:00 PIT >> INFO : SLAVE : 22:09:00 PIT >> FINE : Gathering coverage for test Description [testClass=com.tonicsystems.jarjar.DepFindTest, name=testRun_1(com.tonicsystems.jarjar.DepFindTest)]
+
+22:09:00 PIT >> INFO : SLAVE : 22:09:00 PIT >> FINE : Gathering coverage for test Description [testClass=com.tonicsystems.jarjar.DepFindTest, name=testRun_10(com.tonicsystems.jarjar.DepFindTest)]
+
+22:09:00 PIT >> INFO : SLAVE : 22:09:00 PIT >> FINE : Gathering coverage for test Description [testClass=com.tonicsystems.jarjar.DepFindTest, name=testRun_11(com.tonicsystems.jarjar.DepFindTest)]
+
+22:09:00 PIT >> INFO : SLAVE : 22:09:00 PIT >> FINE : Gathering coverage for test Description [testClass=com.tonicsystems.jarjar.DepFindTest, name=testRun_12(com.tonicsystems.jarjar.DepFindTest)]
+
+22:09:00 PIT >> INFO : SLAVE : 22:09:00 PIT >> FINE : Gathering coverage for test Description [testClass=com.tonicsystems.jarjar.DepFindTest, name=testRun_13(com.tonicsystems.jarjar.DepFindTest)]
+
+22:09:00 PIT >> INFO : SLAVE : 22:09:00 PIT >> FINE : Gathering coverage for test Description [testClass=com.tonicsystems.jarjar.DepFindTest, name=testRun_14(com.tonicsystems.jarjar.DepFindTest)]
+
+22:09:00 PIT >> INFO : SLAVE : 22:09:00 PIT >> FINE : Gathering coverage for test Description [testClass=com.tonicsystems.jarjar.DepFindTest, name=testRun_15(com.tonicsystems.jarjar.DepFindTest)]
+
+22:09:00 PIT >> INFO : SLAVE : 22:09:00 PIT >> FINE : Gathering coverage for test Description [testClass=com.tonicsystems.jarjar.DepFindTest, name=testRun_16(com.tonicsystems.jarjar.DepFindTest)]
+
+22:09:00 PIT >> INFO : SLAVE : 22:09:00 PIT >> FINE : Gathering coverage for test Description [testClass=com.tonicsystems.jarjar.DepFindTest, name=testRun_2(com.tonicsystems.jarjar.DepFindTest)]
+
+22:09:00 PIT >> INFO : SLAVE : 22:09:00 PIT >> FINE : Gathering coverage for test Description [testClass=com.tonicsystems.jarjar.DepFindTest, name=testRun_3(com.tonicsystems.jarjar.DepFindTest)]
+
+22:09:00 PIT >> INFO : SLAVE : 22:09:00 PIT >> FINE : Gathering coverage for test Description [testClass=com.tonicsystems.jarjar.DepFindTest, name=testRun_4(com.tonicsystems.jarjar.DepFindTest)]
+
+22:09:00 PIT >> INFO : SLAVE : 22:09:00 PIT >> FINE : Gathering coverage for test Description [testClass=com.tonicsystems.jarjar.DepFindTest, name=testRun_5(com.tonicsystems.jarjar.DepFindTest)]
+
+22:09:00 PIT >> INFO : SLAVE : 22:09:00 PIT >> FINE : Gathering coverage for test Description [testClass=com.tonicsystems.jarjar.DepFindTest, name=testRun_6(com.tonicsystems.jarjar.DepFindTest)]
+
+22:09:00 PIT >> INFO : SLAVE : 22:09:00 PIT >> FINE : Gathering coverage for test Description [testClass=com.tonicsystems.jarjar.DepFindTest, name=testRun_7(com.tonicsystems.jarjar.DepFindTest)]
+
+22:09:00 PIT >> INFO : SLAVE : 22:09:00 PIT >> FINE : Gathering coverage for test Description [testClass=com.tonicsystems.jarjar.DepFindTest, name=testRun_8(com.tonicsystems.jarjar.DepFindTest)]
+
+22:09:00 PIT >> INFO : SLAVE : 22:09:00 PIT >> FINE : Gathering coverage for test Description [testClass=com.tonicsystems.jarjar.DepFindTest, name=testRun_9(com.tonicsystems.jarjar.DepFindTest)]
+
+22:09:00 PIT >> INFO : SLAVE : 22:09:00 PIT >> FINE : Gathering coverage for test Description [testClass=com.tonicsystems.jarjar.DepFindTest, name=testSetCurrentDirectory_1(com.tonicsystems.jarjar.DepFindTest)]
+
+22:09:00 PIT >> INFO : SLAVE : 22:09:00 PIT >> FINE : Finished
+
+22:09:00 PIT >> INFO : Calculated coverage in 0 seconds.
+22:09:00 PIT >> FINE : Used memory after coverage calculation 1 mb
+22:09:00 PIT >> FINE : Free Memory after coverage calculation 13 mb
+22:09:00 PIT >> FINE : According to coverage no tests hit the mutation MutationDetails [id=MutationIdentifier [location=Location [clazz=com.tonicsystems.jarjar.PathClass, method=getClassPath, methodDesc=()Ljava/lang/String;], indexes=[0], mutator=org.pitest.mutationtest.engine.gregor.mutators.ReturnValsMutator], filename=PathClass.java, block=1, lineNumber=30, description=mutated return of Object value for com/tonicsystems/jarjar/PathClass::getClassPath to ( if (x != null) null else throw new RuntimeException ), testsInOrder=[]]
+22:09:00 PIT >> FINE : According to coverage no tests hit the mutation MutationDetails [id=MutationIdentifier [location=Location [clazz=com.tonicsystems.jarjar.PathClass, method=getClassName, methodDesc=()Ljava/lang/String;], indexes=[0], mutator=org.pitest.mutationtest.engine.gregor.mutators.ReturnValsMutator], filename=PathClass.java, block=2, lineNumber=34, description=mutated return of Object value for com/tonicsystems/jarjar/PathClass::getClassName to ( if (x != null) null else throw new RuntimeException ), testsInOrder=[]]
+22:09:00 PIT >> FINE : According to coverage no tests hit the mutation MutationDetails [id=MutationIdentifier [location=Location [clazz=com.tonicsystems.jarjar.PathClass, method=toString, methodDesc=()Ljava/lang/String;], indexes=[0], mutator=org.pitest.mutationtest.engine.gregor.mutators.ReturnValsMutator], filename=PathClass.java, block=3, lineNumber=38, description=mutated return of Object value for com/tonicsystems/jarjar/PathClass::toString to ( if (x != null) null else throw new RuntimeException ), testsInOrder=[]]
+22:09:00 PIT >> INFO : Created  2 mutation test units
+22:09:00 PIT >> FINE : Used memory before analysis start 3 mb
+22:09:00 PIT >> FINE : Free Memory before analysis start 11 mb
+22:09:00 PIT >> FINE : Running 2 units
+22:09:00 PIT >> FINE : using port 8092
+stdout  : Installing PIT agent
+stderr  : 22:09:00 PIT >> FINE : Running mutation MutationDetails [id=MutationIdentifier [location=Location [clazz=com.tonicsystems.jarjar.DepFind, method=run, methodDesc=(Ljava/lang/String;Ljava/lang/String;Lcom/tonicsystems/jarjar/DepHandler;)V], indexes=[0], mutastderr  : tor=org.pitest.mutationtest.engine.gregor.mutators.IncrementsMutator], filename=DepFind.java, block=3, lineNumber=32, description=Changed increment from 1 to -1, testsInOrder=[com.tonicsystems.jarjar.DepFindTest.testRun_4(com.tonicsystems.jarjar.DepFindTesstderr  : t), com.tonicsystems.jarjar.DepFindTest.testRun_6(com.tonicsystems.jarjar.DepFindTest), com.tonicsystems.jarjar.DepFindTest.testRun_7(com.tonicsystems.jarjar.DepFindTest), com.tonicsystems.jarjar.DepFindTest.testRun_9(com.tonicsystems.jarjar.DepFindTest), stderr  : com.tonicsystems.jarjar.DepFindTest.testRun_10(com.tonicsystems.jarjar.DepFindTest), com.tonicsystems.jarjar.DepFindTest.testRun_11(com.tonicsystems.jarjar.DepFindTest), com.tonicsystems.jarjar.DepFindTest.testRun_13(com.tonicsystems.jarjar.DepFindTest), cstderr  : om.tonicsystems.jarjar.DepFindTest.testRun_15(com.tonicsystems.jarjar.DepFindTest), com.tonicsystems.jarjar.DepFindTest.testRun_16(com.tonicsystems.jarjar.DepFindTest), com.tonicsystems.jarjar.DepFindTest.testRun_2(com.tonicsystems.jarjar.DepFindTest), comstderr  : .tonicsystems.jarjar.DepFindTest.testRun_3(com.tonicsystems.jarjar.DepFindTest), com.tonicsystems.jarjar.DepFindTest.testRun_5(com.tonicsystems.jarjar.DepFindTest), com.tonicsystems.jarjar.DepFindTest.testRun_8(com.tonicsystems.jarjar.DepFindTest), com.tonstderr  : icsystems.jarjar.DepFindTest.testRun_12(com.tonicsystems.jarjar.DepFindTest), com.tonicsystems.jarjar.DepFindTest.testRun_14(com.tonicsystems.jarjar.DepFindTest), com.tonicsystems.jarjar.DepFindTest.testRun_1(com.tonicsystems.jarjar.DepFindTest)]]
+stderr  : 22:09:00 PIT >> FINE : mutating method run
+stderr  : 22:09:00 PIT >> FINE : 16 relevant test for run
+stderr  : 22:09:00 PIT >> FINE : replaced class with mutant in 2 ms
+stderr  : 22:09:00 PIT >> FINE : Running 1 units
+22:09:04 PIT >> FINE : Exit code was - TIMEOUT
+22:09:04 PIT >> WARNING : Slave exited abnormally due to TIMED_OUT
+22:09:04 PIT >> FINE : Setting 1 unfinished runs to TIMED_OUT state
+22:09:04 PIT >> FINE : using port 8092
+stdout  : Installing PIT agent
+stderr  : 22:09:04 PIT >> FINE : Running mutation MutationDetails [id=MutationIdentifier [location=Location [clazz=com.tonicsystems.jarjar.DepFind, method=run, methodDesc=(Ljava/lang/String;Ljava/lang/String;Lcom/tonicsystems/jarjar/DepHandler;)V], indexes=[1], mutastderr  : tor=org.pitest.mutationtest.engine.gregor.mutators.NegateConditionalsMutator], filename=DepFind.java, block=4, lineNumber=32, description=negated conditional, testsInOrder=[com.tonicsystems.jarjar.DepFindTest.testRun_4(com.tonicsystems.jarjar.DepFindTest),stderr  :  com.tonicsystems.jarjar.DepFindTest.testRun_6(com.tonicsystems.jarjar.DepFindTest), com.tonicsystems.jarjar.DepFindTest.testRun_7(com.tonicsystems.jarjar.DepFindTest), com.tonicsystems.jarjar.DepFindTest.testRun_9(com.tonicsystems.jarjar.DepFindTest), comstderr  : .tonicsystems.jarjar.DepFindTest.testRun_10(com.tonicsystems.jarjar.DepFindTest), com.tonicsystems.jarjar.DepFindTest.testRun_11(com.tonicsystems.jarjar.DepFindTest), com.tonicsystems.jarjar.DepFindTest.testRun_13(com.tonicsystems.jarjar.DepFindTest), com.stderr  : tonicsystems.jarjar.DepFindTest.testRun_15(com.tonicsystems.jarjar.DepFindTest), com.tonicsystems.jarjar.DepFindTest.testRun_16(com.tonicsystems.jarjar.DepFindTest), com.tonicsystems.jarjar.DepFindTest.testRun_2(com.tonicsystems.jarjar.DepFindTest), com.tostderr  : nicsystems.jarjar.DepFindTest.testRun_3(com.tonicsystems.jarjar.DepFindTest), com.tonicsystems.jarjar.DepFindTest.testRun_5(com.tonicsystems.jarjar.DepFindTest), com.tonicsystems.jarjar.DepFindTest.testRun_8(com.tonicsystems.jarjar.DepFindTest), com.tonicsstderr  : ystems.jarjar.DepFindTest.testRun_12(com.tonicsystems.jarjar.DepFindTest), com.tonicsystems.jarjar.DepFindTest.testRun_14(com.tonicsystems.jarjar.DepFindTest), com.tonicsystems.jarjar.DepFindTest.testRun_1(com.tonicsystems.jarjar.DepFindTest)]]
+stderr  : 22:09:05 PIT >> FINE : mutating method run
+stderr  : 22:09:05 PIT >> FINE : 16 relevant test for run
+stderr  : 22:09:05 PIT >> FINE : replaced class with mutant in 2 ms
+stderr  : 22:09:05 PIT >> FINE : Running 1 units
+stderr  : 22:09:05 PIT >> FINE : Finished
+stderr  : 22:09:05 PIT >> FINE : Mutation MutationIdentifier [location=Location [clazz=com.tonicsystems.jarjar.DepFind, method=run, methodDesc=(Ljava/lang/String;Ljava/lang/String;Lcom/tonicsystems/jarjar/DepHandler;)V], indexes=[1], mutator=org.pitest.mutationtest.stderr  : engine.gregor.mutators.NegateConditionalsMutator] detected = SURVIVED
+22:09:05 PIT >> FINE : processed mutation in 117 ms.
+stderr  : 22:09:05 PIT >> FINE : Running mutation MutationDetails [id=MutationIdentifier [location=Location [clazz=com.tonicsystems.jarjar.DepFind, method=run, methodDesc=(Ljava/lang/String;Ljava/lang/String;Lcom/tonicsystems/jarjar/DepHandler;)V], indexes=[2], mutastderr  : tor=org.pitest.mutationtest.engine.gregor.mutators.NegateConditionalsMutator], filename=DepFind.java, block=5, lineNumber=28, description=negated conditional, testsInOrder=[com.tonicsystems.jarjar.DepFindTest.testRun_4(com.tonicsystems.jarjar.DepFindTest),stderr  :  com.tonicsystems.jarjar.DepFindTest.testRun_6(com.tonicsystems.jarjar.DepFindTest), com.tonicsystems.jarjar.DepFindTest.testRun_7(com.tonicsystems.jarjar.DepFindTest), com.tonicsystems.jarjar.DepFindTest.testRun_9(com.tonicsystems.jarjar.DepFindTest), comstderr  : .tonicsystems.jarjar.DepFindTest.testRun_10(com.tonicsystems.jarjar.DepFindTest), com.tonicsystems.jarjar.DepFindTest.testRun_11(com.tonicsystems.jarjar.DepFindTest), com.tonicsystems.jarjar.DepFindTest.testRun_13(com.tonicsystems.jarjar.DepFindTest), com.stderr  : tonicsystems.jarjar.DepFindTest.testRun_15(com.tonicsystems.jarjar.DepFindTest), com.tonicsystems.jarjar.DepFindTest.testRun_16(com.tonicsystems.jarjar.DepFindTest), com.tonicsystems.jarjar.DepFindTest.testRun_2(com.tonicsystems.jarjar.DepFindTest), com.tostderr  : nicsystems.jarjar.DepFindTest.testRun_3(com.tonicsystems.jarjar.DepFindTest), com.tonicsystems.jarjar.DepFindTest.testRun_5(com.tonicsystems.jarjar.DepFindTest), com.tonicsystems.jarjar.DepFindTest.testRun_8(com.tonicsystems.jarjar.DepFindTest), com.tonicsstderr  : ystems.jarjar.DepFindTest.testRun_12(com.tonicsystems.jarjar.DepFindTest), com.tonicsystems.jarjar.DepFindTest.testRun_14(com.tonicsystems.jarjar.DepFindTest), com.tonicsystems.jarjar.DepFindTest.testRun_1(com.tonicsystems.jarjar.DepFindTest)]]
+22:09:05 PIT >> FINE : MutationIdentifier [location=Location [clazz=com.tonicsystems.jarjar.DepFind, method=run, methodDesc=(Ljava/lang/String;Ljava/lang/String;Lcom/tonicsystems/jarjar/DepHandler;)V], indexes=[1], mutator=org.pitest.mutationtest.engine.gregor.mutators.NegateConditionalsMutator] SURVIVED
+stderr  : 22:09:05 PIT >> FINE : mutating method run
+stderr  : 22:09:05 PIT >> FINE : 16 relevant test for run
+stderr  : 22:09:05 PIT >> FINE : replaced class with mutant in 1 ms
+stderr  : 22:09:05 PIT >> FINE : Running 1 units
+stderr  : 22:09:05 PIT >> FINE : Finished
+stderr  : 22:09:05 PIT >> FINE : Mutation MutationIdentifier [location=Location [clazz=com.tonicsystems.jarjar.DepFind, method=run, methodDesc=(Ljava/lang/String;Ljava/lang/String;Lcom/tonicsystems/jarjar/DepHandler;)V], indexes=[2], mutator=org.pitest.mutationtest.stderr  : engine.gregor.mutators.NegateConditionalsMutator] detected = SURVIVED
+22:09:05 PIT >> FINE : processed mutation in 28 ms.
+22:09:05 PIT >> FINE : Running mutation MutationDetails [id=MutationIdentifier [location=Location [clazz=com.tonicsystems.jarjar.Depstderr  : Find, method=run, methodDesc=(Ljava/lang/String;Ljava/lang/String;Lcom/tonicsystems/jarjar/DepHandler;)V], indexes=[0], mutator=org.pitest.mutationtest.engine.gregor.mutators.NegateConditionalsMutator], filename=DepFind.java, block=3, lineNumber=32, descristderr  : ption=negated conditional, testsInOrder=[com.tonicsystems.jarjar.DepFindTest.testRun_4(com.tonicsystems.jarjar.DepFindTest), com.tonicsystems.jarjar.DepFindTest.testRun_6(com.tonicsystems.jarjar.DepFindTest), com.tonicsystems.jarjar.DepFindTest.testRun_7(cstderr  : om.tonicsystems.jarjar.DepFindTest), com.tonicsystems.jarjar.DepFindTest.testRun_9(com.tonicsystems.jarjar.DepFindTest), com.tonicsystems.jarjar.DepFindTest.testRun_10(com.tonicsystems.jarjar.DepFindTest), com.tonicsystems.jarjar.DepFindTest.testRun_11(comstderr  : .tonicsystems.jarjar.DepFindTest), com.tonicsystems.jarjar.DepFindTest.testRun_13(com.tonicsystems.jarjar.DepFindTest), com.tonicsystems.jarjar.DepFindTest.testRun_15(com.tonicsystems.jarjar.DepFindTest), com.tonicsystems.jarjar.DepFindTest.testRun_16(com.stderr  : tonicsystems.jarjar.DepFindTest), com.tonicsystems.jarjar.DepFindTest.testRun_2(com.tonicsystems.jarjar.DepFindTest), com.tonicsystems.jarjar.DepFindTest.testRun_3(com.tonicsystems.jarjar.DepFindTest), com.tonicsystems.jarjar.DepFindTest.testRun_5(com.tonistderr  : csystems.jarjar.DepFindTest), com.tonicsystems.jarjar.DepFindTest.testRun_8(com.tonicsystems.jarjar.DepFindTest), com.tonicsystems.jarjar.DepFindTest.testRun_12(com.tonicsystems.jarjar.DepFindTest), com.tonicsystems.jarjar.DepFindTest.testRun_14(com.tonicsstderr  : ystems.jarjar.DepFindTest), com.tonicsystems.jarjar.DepFindTest.testRun_1(com.tonicsystems.jarjar.DepFindTest)]]
+22:09:05 PIT >> FINE : MutationIdentifier [location=Location [clazz=com.tonicsystems.jarjar.DepFind, method=run, methodDesc=(Ljava/lang/String;Ljava/lang/String;Lcom/tonicsystems/jarjar/DepHandler;)V], indexes=[2], mutator=org.pitest.mutationtest.engine.gregor.mutators.NegateConditionalsMutator] SURVIVED
+stderr  : 22:09:05 PIT >> FINE : mutating method run
+stderr  : 22:09:05 PIT >> FINE : 16 relevant test for run
+stderr  : 22:09:05 PIT >> FINE : replaced class with mutant in 1 ms
+stderr  : 22:09:05 PIT >> FINE : Running 1 units
+stderr  : 22:09:05 PIT >> FINE : Finished
+stderr  : 22:09:05 PIT >> FINE : Mutation MutationIdentifier [location=Location [clazz=com.tonicsystems.jarjar.DepFind, method=run, methodDesc=(Ljava/lang/String;Ljava/lang/String;Lcom/tonicsystems/jarjar/DepHandler;)V], indexes=[0], mutator=org.pitest.mutationtest.stderr  : engine.gregor.mutators.NegateConditionalsMutator] detected = SURVIVED
+22:09:05 PIT >> FINE : processed mutation in 23 ms.
+22:09:05 PIT >> FINE : MutationIdentifier [location=Location [clazz=com.tonicsystems.jarjar.DepFind, method=run, methodDesc=(Ljava/lang/String;Ljava/lang/String;Lcom/tonicsystems/jarjar/DepHandler;)V], indexes=[0], mutator=org.pitest.mutationtest.engine.gregor.mutators.NegateConditionalsMutator] SURVIVED
+stderr  : 22:09:05 PIT >> FINE : Running mutation MutationDetails [id=MutationIdentifier [location=Location [clazz=com.tonicsystems.jarjar.DepFind, method=run, methodDesc=(Ljava/lang/String;Ljava/lang/String;Lcom/tonicsystems/jarjar/DepHandler;)V], indexes=[1], mutastderr  : tor=org.pitest.mutationtest.engine.gregor.mutators.ConditionalsBoundaryMutator], filename=DepFind.java, block=5, lineNumber=28, description=changed conditional boundary, testsInOrder=[com.tonicsystems.jarjar.DepFindTest.testRun_4(com.tonicsystems.jarjar.Destderr  : pFindTest), com.tonicsystems.jarjar.DepFindTest.testRun_6(com.tonicsystems.jarjar.DepFindTest), com.tonicsystems.jarjar.DepFindTest.testRun_7(com.tonicsystems.jarjar.DepFindTest), com.tonicsystems.jarjar.DepFindTest.testRun_9(com.tonicsystems.jarjar.DepFinstderr  : dTest), com.tonicsystems.jarjar.DepFindTest.testRun_10(com.tonicsystems.jarjar.DepFindTest), com.tonicsystems.jarjar.DepFindTest.testRun_11(com.tonicsystems.jarjar.DepFindTest), com.tonicsystems.jarjar.DepFindTest.testRun_13(com.tonicsystems.jarjar.DepFindstderr  : Test), com.tonicsystems.jarjar.DepFindTest.testRun_15(com.tonicsystems.jarjar.DepFindTest), com.tonicsystems.jarjar.DepFindTest.testRun_16(com.tonicsystems.jarjar.DepFindTest), com.tonicsystems.jarjar.DepFindTest.testRun_2(com.tonicsystems.jarjar.DepFindTestderr  : st), com.tonicsystems.jarjar.DepFindTest.testRun_3(com.tonicsystems.jarjar.DepFindTest), com.tonicsystems.jarjar.DepFindTest.testRun_5(com.tonicsystems.jarjar.DepFindTest), com.tonicsystems.jarjar.DepFindTest.testRun_8(com.tonicsystems.jarjar.DepFindTest),stderr  :  com.tonicsystems.jarjar.DepFindTest.testRun_12(com.tonicsystems.jarjar.DepFindTest), com.tonicsystems.jarjar.DepFindTest.testRun_14(com.tonicsystems.jarjar.DepFindTest), com.tonicsystems.jarjar.DepFindTest.testRun_1(com.tonicsystems.jarjar.DepFindTest)]]stderr  : 
+stderr  : 22:09:05 PIT >> FINE : mutating method run
+stderr  : 22:09:05 PIT >> FINE : 16 relevant test for run
+stderr  : 22:09:05 PIT >> FINE : replaced class with mutant in 2 ms
+stderr  : 22:09:05 PIT >> FINE : Running 1 units
+stderr  : 22:09:05 PIT >> FINE : Finished
+stderr  : 22:09:05 PIT >> FINE : Mutation MutationIdentifier [location=Location [clazz=com.tonicsystems.jarjar.DepFind, method=run, methodDesc=(Ljava/lang/String;Ljava/lang/String;Lcom/tonicsystems/jarjar/DepHandler;)V], indexes=[1], mutator=org.pitest.mutationtest.stderr  : engine.gregor.mutators.ConditionalsBoundaryMutator] detected = SURVIVED
+22:09:05 PIT >> FINE : processed mutation in 19 ms.
+22:09:05 PIT >> FINE : Running mutation MutationDetails [id=MutationIdentifier [location=Location [clazz=com.tonicsystems.jarjar.Dstderr  : epFind, method=run, methodDesc=(Ljava/lang/String;Ljava/lang/String;Lcom/tonicsystems/jarjar/DepHandler;)V], indexes=[1], mutator=org.pitest.mutationtest.engine.gregor.mutators.IncrementsMutator], filename=DepFind.java, block=5, lineNumber=28, description=stderr  : Changed increment from 1 to -1, testsInOrder=[com.tonicsystems.jarjar.DepFindTest.testRun_4(com.tonicsystems.jarjar.DepFindTest), com.tonicsystems.jarjar.DepFindTest.testRun_6(com.tonicsystems.jarjar.DepFindTest), com.tonicsystems.jarjar.DepFindTest.testRu22:09:05 PIT >> FINE : MutationIdentifier [location=Location [clazz=com.tonicsystems.jarjar.DepFind, method=run, methodDesc=(Ljava/lang/String;Ljava/lang/String;Lcom/tonicsystems/jarjar/DepHandler;)V], indexes=[1], mutator=org.pitest.mutationtest.engine.gregor.mutators.ConditionalsBoundaryMutator] SURVIVED
+stderr  : n_7(com.tonicsystems.jarjar.DepFindTest), com.tonicsystems.jarjar.DepFindTest.testRun_9(com.tonicsystems.jarjar.DepFindTest), com.tonicsystems.jarjar.DepFindTest.testRun_10(com.tonicsystems.jarjar.DepFindTest), com.tonicsystems.jarjar.DepFindTest.testRun_1stderr  : 1(com.tonicsystems.jarjar.DepFindTest), com.tonicsystems.jarjar.DepFindTest.testRun_13(com.tonicsystems.jarjar.DepFindTest), com.tonicsystems.jarjar.DepFindTest.testRun_15(com.tonicsystems.jarjar.DepFindTest), com.tonicsystems.jarjar.DepFindTest.testRun_16stderr  : (com.tonicsystems.jarjar.DepFindTest), com.tonicsystems.jarjar.DepFindTest.testRun_2(com.tonicsystems.jarjar.DepFindTest), com.tonicsystems.jarjar.DepFindTest.testRun_3(com.tonicsystems.jarjar.DepFindTest), com.tonicsystems.jarjar.DepFindTest.testRun_5(comstderr  : .tonicsystems.jarjar.DepFindTest), com.tonicsystems.jarjar.DepFindTest.testRun_8(com.tonicsystems.jarjar.DepFindTest), com.tonicsystems.jarjar.DepFindTest.testRun_12(com.tonicsystems.jarjar.DepFindTest), com.tonicsystems.jarjar.DepFindTest.testRun_14(com.tstderr  : onicsystems.jarjar.DepFindTest), com.tonicsystems.jarjar.DepFindTest.testRun_1(com.tonicsystems.jarjar.DepFindTest)]]
+stderr  : 22:09:05 PIT >> FINE : mutating method run
+stderr  : 22:09:05 PIT >> FINE : 16 relevant test for run
+stderr  : 22:09:05 PIT >> FINE : replaced class with mutant in 2 ms
+stderr  : 22:09:05 PIT >> FINE : Running 1 units
+22:09:09 PIT >> FINE : Exit code was - TIMEOUT
+22:09:09 PIT >> WARNING : Slave exited abnormally due to TIMED_OUT
+22:09:09 PIT >> FINE : Setting 1 unfinished runs to TIMED_OUT state
+22:09:09 PIT >> FINE : using port 8092
+stdout  : Installing PIT agent
+stderr  : 22:09:09 PIT >> FINE : Running mutation MutationDetails [id=MutationIdentifier [location=Location [clazz=com.tonicsystems.jarjar.DepFind, method=run, methodDesc=(Ljava/lang/String;Ljava/lang/String;Lcom/tonicsystems/jarjar/DepHandler;)V], indexes=[0], mutastderr  : tor=org.pitest.mutationtest.engine.gregor.mutators.ConditionalsBoundaryMutator], filename=DepFind.java, block=4, lineNumber=32, description=changed conditional boundary, testsInOrder=[com.tonicsystems.jarjar.DepFindTest.testRun_4(com.tonicsystems.jarjar.Destderr  : pFindTest), com.tonicsystems.jarjar.DepFindTest.testRun_6(com.tonicsystems.jarjar.DepFindTest), com.tonicsystems.jarjar.DepFindTest.testRun_7(com.tonicsystems.jarjar.DepFindTest), com.tonicsystems.jarjar.DepFindTest.testRun_9(com.tonicsystems.jarjar.DepFinstderr  : dTest), com.tonicsystems.jarjar.DepFindTest.testRun_10(com.tonicsystems.jarjar.DepFindTest), com.tonicsystems.jarjar.DepFindTest.testRun_11(com.tonicsystems.jarjar.DepFindTest), com.tonicsystems.jarjar.DepFindTest.testRun_13(com.tonicsystems.jarjar.DepFindstderr  : Test), com.tonicsystems.jarjar.DepFindTest.testRun_15(com.tonicsystems.jarjar.DepFindTest), com.tonicsystems.jarjar.DepFindTest.testRun_16(com.tonicsystems.jarjar.DepFindTest), com.tonicsystems.jarjar.DepFindTest.testRun_2(com.tonicsystems.jarjar.DepFindTestderr  : st), com.tonicsystems.jarjar.DepFindTest.testRun_3(com.tonicsystems.jarjar.DepFindTest), com.tonicsystems.jarjar.DepFindTest.testRun_5(com.tonicsystems.jarjar.DepFindTest), com.tonicsystems.jarjar.DepFindTest.testRun_8(com.tonicsystems.jarjar.DepFindTest),stderr  :  com.tonicsystems.jarjar.DepFindTest.testRun_12(com.tonicsystems.jarjar.DepFindTest), com.tonicsystems.jarjar.DepFindTest.testRun_14(com.tonicsystems.jarjar.DepFindTest), com.tonicsystems.jarjar.DepFindTest.testRun_1(com.tonicsystems.jarjar.DepFindTest)]]stderr  : 
+stderr  : 22:09:09 PIT >> FINE : mutating method run
+stderr  : 22:09:09 PIT >> FINE : 16 relevant test for run
+stderr  : 22:09:09 PIT >> FINE : replaced class with mutant in 3 ms
+stderr  : 22:09:09 PIT >> FINE : Running 1 units
+stderr  : 22:09:09 PIT >> FINE : Finished
+stderr  : 22:09:09 PIT >> FINE : Mutation MutationIdentifier [location=Location [clazz=com.tonicsystems.jarjar.DepFind, method=run, methodDesc=(Ljava/lang/String;Ljava/lang/String;Lcom/tonicsystems/jarjar/DepHandler;)V], indexes=[0], mutator=org.pitest.mutationtest.stderr  : engine.gregor.mutators.ConditionalsBoundaryMutator] detected = SURVIVED
+22:09:09 PIT >> FINE : processed mutation in 146 ms.
+22:09:09 PIT >> FINE : MutationIdentifier [location=Location [clazz=com.tonicsystems.jarjar.DepFind, method=run, methodDesc=(Ljava/lang/String;Ljava/lang/String;Lcom/tonicsystems/jarjar/DepHandler;)V], indexes=[0], mutator=org.pitest.mutationtest.engine.gregor.mutators.ConditionalsBoundaryMutator] SURVIVED
+22:09:09 PIT >> FINE : Exit code was - OK
+22:09:09 PIT >> FINE : Slave exited ok
+22:09:09 PIT >> FINE : Finished
+22:09:09 PIT >> INFO : Completed in 10 seconds
+================================================================================
+- Timings
+================================================================================
+> scan classpath : < 1 second
+> coverage and dependency analysis : < 1 second
+> build mutation tests : < 1 second
+> run mutation analysis : 9 seconds
+--------------------------------------------------------------------------------
+> Total  : 10 seconds
+--------------------------------------------------------------------------------
+================================================================================
+- Statistics
+================================================================================
+>> Generated 10 mutations Killed 2 (20%)
+>> Ran 80 tests (8 tests per mutation)
+================================================================================
+- Mutators
+================================================================================
+> org.pitest.mutationtest.engine.gregor.mutators.ConditionalsBoundaryMutator
+>> Generated 2 Killed 0 (0%)
+> KILLED 0 SURVIVED 2 TIMED_OUT 0 NON_VIABLE 0 
+> MEMORY_ERROR 0 NOT_STARTED 0 STARTED 0 RUN_ERROR 0 
+> NO_COVERAGE 0 
+--------------------------------------------------------------------------------
+> org.pitest.mutationtest.engine.gregor.mutators.ReturnValsMutator
+>> Generated 3 Killed 0 (0%)
+> KILLED 0 SURVIVED 0 TIMED_OUT 0 NON_VIABLE 0 
+> MEMORY_ERROR 0 NOT_STARTED 0 STARTED 0 RUN_ERROR 0 
+> NO_COVERAGE 3 
+--------------------------------------------------------------------------------
+> org.pitest.mutationtest.engine.gregor.mutators.IncrementsMutator
+>> Generated 2 Killed 2 (100%)
+> KILLED 0 SURVIVED 0 TIMED_OUT 2 NON_VIABLE 0 
+> MEMORY_ERROR 0 NOT_STARTED 0 STARTED 0 RUN_ERROR 0 
+> NO_COVERAGE 0 
+--------------------------------------------------------------------------------
+> org.pitest.mutationtest.engine.gregor.mutators.NegateConditionalsMutator
+>> Generated 3 Killed 0 (0%)
+> KILLED 0 SURVIVED 3 TIMED_OUT 0 NON_VIABLE 0 
+> MEMORY_ERROR 0 NOT_STARTED 0 STARTED 0 RUN_ERROR 0 
+> NO_COVERAGE 0 
+--------------------------------------------------------------------------------
+Done at  22:09:09,91 
