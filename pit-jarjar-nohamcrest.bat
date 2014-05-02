@@ -1,11 +1,11 @@
 @echo off
 setlocal EnableDelayedExpansion
 
+set JARJAR_PATH=%~dp0
+
 REM comment out below to see the issue
 REM set HAMCREST_PATH=%JARJAR_PATH%/lib/hamcrest-all-1.1.jar
 
-
-set JARJAR_PATH=%~dp0
 set PIT_REPORT_DIR=target/pitest
 set PIT_LOG_FILE=%PIT_REPORT_DIR%/pitest-out-nohamcrest.log
 set PIT_PATH=%JARJAR_PATH%/pit_lib/pitest-0.32.jar;%JARJAR_PATH%/pit_lib/pitest-command-line-0.32.jar
